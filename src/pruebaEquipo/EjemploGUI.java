@@ -3,6 +3,7 @@ package pruebaEquipo;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JButton;
@@ -45,6 +46,7 @@ public class EjemploGUI extends JFrame {
 		JButton btnNewButton = new JButton("YABI");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null,"Recuerdame tu nombre");
 			}
 		});
 		btnNewButton.setBounds(60, 11, 259, 52);
