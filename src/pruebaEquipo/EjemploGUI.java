@@ -53,6 +53,11 @@ public class EjemploGUI extends JFrame {
 		contentPane.add(btnNewButton);
 		
 		JButton btnMonse = new JButton("MONSE");
+		btnMonse.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null,"Recuerdame tu nombre");
+			}
+		});
 		btnMonse.setBounds(60, 74, 259, 52);
 		contentPane.add(btnMonse);
 		
