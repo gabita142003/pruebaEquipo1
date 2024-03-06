@@ -65,6 +65,8 @@ public class EjemploGUI extends JFrame {
 		btnAlba.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(null,"Recuerdame tu nombre");
+				JOptionPane.showMessageDialog(null,"Hola , Mi nombre es Alba");
+				
 			}
 		});
 		btnAlba.setBounds(60, 141, 259, 52);
