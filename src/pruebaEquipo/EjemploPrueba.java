@@ -7,6 +7,8 @@ public class EjemploPrueba {
      System.out.println("Hola,¿Cómo te llamas?");
      System.out.println("Hola,me llamo Alba");
      System.out.println("hola me llamo monse");
+     System.out.println("segundo mensaje");
+     
 	}
 
 }
