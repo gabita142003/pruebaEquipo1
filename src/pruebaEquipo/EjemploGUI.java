@@ -66,7 +66,7 @@ public class EjemploGUI extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(null,"Recuerdame tu nombre");
 				JOptionPane.showMessageDialog(null,"Hola , Mi nombre es Alba");
-				
+				JOptionPane.showMessageDialog(null,"Hola , Mi nombre es Albita");
 			}
 		});
 		btnAlba.setBounds(60, 141, 259, 52);
